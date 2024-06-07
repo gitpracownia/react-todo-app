@@ -3,7 +3,7 @@ import { NavLink, useNavigate  } from "react-router-dom";
 import { useAuthContext } from '@/context/AuthContext';
 
 const links = [
-  { path: '/', text: 'Home' },
+  { path: '/', text: 'Strona Domyślna' },
   { path: 'about', text: 'About' },
   { path: 'profile', text: 'Profile' },
   { path: 'login', text: 'Login' },
